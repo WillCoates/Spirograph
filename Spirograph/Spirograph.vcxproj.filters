@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\My Controls">
+      <UniqueIdentifier>{4b87d251-cc21-4ca9-afca-61c7c4f27b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\My Controls">
+      <UniqueIdentifier>{3eb2fa6c-0e89-4ef4-8dba-5213a46aa78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spirograph">
+      <UniqueIdentifier>{2eeae1ed-d826-4ddd-a914-adb6e0daa8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Spirograph">
+      <UniqueIdentifier>{2849181e-bcc2-4582-bcca-7a9bc45473a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32 Helpers">
+      <UniqueIdentifier>{fab2253f-b16c-4d0f-a51d-d79987209771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32 Helpers\CommonControls">
+      <UniqueIdentifier>{66478f1b-9086-4629-8825-5783709e325d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Win32 Helpers">
+      <UniqueIdentifier>{3acbb0ef-8886-4112-bb3d-69e53d4f15b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files\Win32 Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\My Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonControls.h">
+      <Filter>Header Files\Win32 Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotSet.h">
+      <Filter>Header Files\Spirograph</Filter>
+    </ClInclude>
+    <ClInclude Include="Plot.h">
+      <Filter>Header Files\Spirograph</Filter>
+    </ClInclude>
+    <ClInclude Include="Plotter.h">
+      <Filter>Header Files\My Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spirograph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Source Files\Win32 Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\My Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotSet.cpp">
+      <Filter>Source Files\Spirograph</Filter>
+    </ClCompile>
+    <ClCompile Include="EditControl.cpp">
+      <Filter>Source Files\Win32 Helpers\CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="Plotter.cpp">
+      <Filter>Source Files\My Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plot.cpp">
+      <Filter>Source Files\Spirograph</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBoxControl.cpp">
+      <Filter>Source Files\Win32 Helpers\CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticControl.cpp">
+      <Filter>Source Files\Win32 Helpers\CommonControls</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControl.cpp">
+      <Filter>Source Files\Win32 Helpers\CommonControls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Spirograph.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
